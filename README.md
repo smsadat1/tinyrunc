@@ -17,13 +17,13 @@ chmod +x tinyrunc.sh
 
 Then use it like this
 ```bash
-sudo ./tinyrunc.sh /var/tinyrunc/1/rootfs \ 
-    --memory 128M \ 
+sudo ./tinyrunc.sh /var/tinyrunc/1/rootfs \
+    --memory 128M \
     --pids 128 \
     --cpu 1000:2000 \
     --no-new-privs \
     --readonly-rootfs \
-    --  \
+    -- \
     /bin/ls -l
 ```
 
