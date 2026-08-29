@@ -15,7 +15,7 @@ chmod +x tinyrunc.sh
 
 **Step 2**
 
-Then use it like this
+Then use it like this (script in src/tinyrunc.sh)
 ```bash
 sudo ./tinyrunc.sh /var/tinyrunc/1/rootfs \
     --memory 128M \
